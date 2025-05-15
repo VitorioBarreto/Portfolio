@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Prevenir cache -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/acordeon.css" />
+    <link rel="stylesheet" href="assets/css/languages.css" />
+    <link rel="stylesheet" href="assets/css/projects.css" />
+    <link rel="stylesheet" href="assets/css/skills.css" />
+    <title>Vitório Barreto</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <img src="assets/images/eu.png" alt="Vitorio Barreto" class="photo" />
+        <h1 class="title">Olá, <br />eu sou Vitorio Barreto</h1>
+        <div class="info">
+          <p class="job">Estudante de Engenharia de Software</p>
+          <p class="location">Fartura - SP</p>
+          <p class="phone"><a href="https://wa.me/+5514997396571">(14) 99739-6571</a></p>
+          <p class="linkedin"><a href="https://www.linkedin.com/in/vitorio-barreto/">Vitorio Barreto</a></p>
+          <p class="email"><a href="mailto:vitorio.augusto.silva@gmail.com">vitorio.augusto.silva@gmail.com</a></p>
+        </div>
+      </header>
+      <section class="acordeon">
+        <button class="trigger" type="button">Skills</button>
+        <div class="content">
+          <h3>Habilidades Profissionais</h3>
+          <ul class="skills">
+            <li><img src="assets/icons/java.svg" alt="java"></li></li>
+            <li><img src="assets/icons/mysql.svg" alt="mysql"></li></li>
+            <li><img src="assets/icons/html.svg" alt="html"></img></li>
+            <li><img src="assets/icons/css.svg" alt="css"></img></li>
+            <li><img src="assets/icons/js.svg" alt="javascript"></img></li>
+            <li><img src="assets/icons/github-white.svg" alt="github"></img></li>
+          </ul>
+          <h3>Habilidades Pessoais</h3>
+          <ul class="soft skills">
+            <li>Trabalho em equipe</li>
+            <li>Proatividade</li>
+            <li>Adaptabilidade</li>
+            <li>Flexibilidade</li>
+            <li>Proatividade</li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">Idiomas</button>
+
+        <div class="content">
+          <ul class="languages">
+            <li>Português Fluente</li>
+            <li>Inglês Intermediário</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button">Projetos</button>
+
+        <div class="content">
+          <ul class="projects">
+            <li>
+              <span class="title">
+                <a href="https://github.com/VitorioBarreto/VISTATECH_ERP">VistaTech ERP</a>
+              </span>
+            </li>
+              <li>
+                <span class="title"><a href="https://github.com/VitorioBarreto/CyberForge">CyberForge</a></span>
+              </li>
+              <li>
+                <span class="title"><a href="https://github.com/VitorioBarreto/api-spring-security">API Spring Security</a></span>
+              </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/acordeon.js"></script>
+  </body>
+</html>
