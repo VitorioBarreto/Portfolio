@@ -1,0 +1,77 @@
+{
+  "name": "Vitorio Barreto",
+  "role": "Estudante de Engenharia de Software",
+  "location": "Fartura - SP",
+  "contact": {
+    "phone": {
+      "number": "(14) 99739-6571",
+      "whatsapp": "https://wa.me/+5514997396571"
+    },
+    "linkedin": {
+      "name": "Vitorio Barreto",
+      "url": "https://www.linkedin.com/in/vitorio-barreto/"
+    },
+    "email": {
+      "address": "vitorio.augusto.silva@gmail.com",
+      "mailto": "mailto:vitorio.augusto.silva@gmail.com"
+    }
+  },
+  "skills": {
+    "professional": [
+      {
+        "name": "Java",
+        "icon": "assets/icons/java.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "assets/icons/mysql.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "assets/icons/html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "assets/icons/css.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "assets/icons/js.svg"
+      },
+      {
+        "name": "Git/GitHub",
+        "icon": "assets/icons/github-white.svg"
+      }
+    ],
+    "soft": [
+      "Trabalho em equipe",
+      "Proatividade",
+      "Adaptabilidade",
+      "Flexibilidade"
+    ]
+  },
+  "languages": [
+    {
+      "name": "Português",
+      "level": "Fluente"
+    },
+    {
+      "name": "Inglês",
+      "level": "Intermediário"
+    }
+  ],
+  "projects": [
+    {
+      "name": "VistaTech ERP",
+      "url": "https://github.com/VitorioBarreto/VISTATECH_ERP"
+    },
+    {
+      "name": "CyberForge",
+      "url": "https://github.com/VitorioBarreto/CyberForge"
+    },
+    {
+      "name": "API Spring Security",
+      "url": "https://github.com/VitorioBarreto/api-spring-security"
+    }
+  ]
+}
